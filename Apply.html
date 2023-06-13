@@ -1,0 +1,168 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+</head>
+
+<body>
+	<section class="header">
+        <nav>
+           <a href="index.html" class="logo">Virtual Interns
+           </a>
+            <div class="nav-links" id="navLinks">
+                <!-- Reposnive bar open and close -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+			  <li><a href="Apply.html">Apply</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <!-- Reposnive bar open and close -->
+        </nav>
+         <h2 class="text-center font-weight-bold mx-auto text-capitalize my-5" style="color:#2F2673">
+          A platform for students to<i class="text-primary"> experience </i> ,<i class="text-warning"> explore </i> and <i style="color: yellow;">  evolve </i>
+         </h2>
+    
+       	  <div class="row m-0">
+	   <div class="col-xl-10 col-md-10 col-12 col-sm-12 mx-auto">
+		<div class="row">
+		  <div class="col-xl-5 col-md-5 col-12 col-sm-12   mx-auto p-0">
+                    <img src="https://images.news18.com/ibnlive/uploads/2022/04/internships-2-16513014963x2.jpg?impolicy=website&width=510&height=356" style="width: 517px; height:675px" class="img">
+                 </div> 	
+
+	<div class="wrapper">
+
+		
+		<div class="form_container">
+		  <form name="form">
+        <div class="heading">
+        <h2>Application Form</h2>
+      </div>
+			<div class="form_wrap fullname">
+				<div class="form_item">
+					<label>First Name</label>
+					<input type="text" required>
+					<div class="error" id="fname"></div>  
+				</div>
+				<div class="form_item">
+					<label>Last Name</label>
+					<input type="text" required>
+					<div class="error" id="lname"></div>  
+				</div>
+			</div>
+			<div class="form_wrap">
+				<div class="form_item">
+					<label>Email Address</label>
+					<input type="text" required>
+					<div class="error" id="email"></div>  
+				</div>
+			</div>
+			
+			<div class="form_wrap">
+				<div class="form_item">
+					<label>College</label>
+					<input type="text" required>
+					<div class="error" id="college"></div>  
+				</div>
+			</div>
+			<div class="form_wrap">
+				<div class="form_item">
+					<label>12th</label>
+					<input type="number", name="12 Percent", class="form-control" required >
+					<div class="error" id="12 percent"></div>  
+				</div>
+			</div>
+			<div class="form_wrap">
+				<div class="form_item">
+					<label>UG</label>
+					<input type="number",name="UG", class="form-control" required>
+					<div class="error" id="UG"></div>  
+				</div>
+			</div>
+
+			<div class="form_wrap select_box">
+				<div class="form_item">
+					<label>Branch</label>
+					<input type="text" required>
+					<div class="error" id="branch"></div>  
+				</div>	
+						
+
+				<div class="form_item">
+					<label>Intership</label> 
+					<select name="Intership" required>
+						<option>Web Development</option>
+						<option>Data Science</option>
+						<option>Python Programmer</option>
+						<option>Full Stack Developer</option>
+						<option>Cyber Security</option>
+						<option>Embedded systems</option>
+						<option>Machine Learning</option>
+						<option>IOT</option>
+						<option>Robotics</option>
+						<option>Wireless Communucation</option>
+						<option>IC Engines</option>
+						<option>achine Dynamics</option>
+						<option>Fluid Mechenics</option>
+						<option>Mechatronics</option>
+
+						
+					</select>
+					<div class="error" id="internship"></div>  
+				</div>
+			</div>
+			<div class="form-item">
+                        <label>Internship Looking For(months) <i class="text-danger font-weight-bold" style="font-size: 18px"> * </i>  </label>
+                       <select name="internship_period" class="form-control" required="">
+    					<option value="1W">1W</option>
+    					<option value="1">1M</option>
+    					<option value="2">2M</option>
+    					<option value="3">3M</option>
+    					<option value="4">4M</option>
+    					<option value="5">5M</option>
+    					<option value="6">6M</option>
+    					</select>
+                       
+                        </div>
+
+			<div class="btn">
+			  <input type="submit" value="Submit">
+
+			</div>
+		  </form>
+		</div>
+	  </div>
+  </section>
+		 <!-- Footer Section Start -->
+    <section class="footer">
+        <hr>
+        <h4>About Us</h4>
+        <p style="color: #24f8c7;">Kick-start your career by applying for virtual internships</p>
+
+        <div class="icons">
+            <i style="color:#00008B;" class="fab fa-facebook-f"></i>
+            <i style="color:#00008B;" class="fab fa-instagram"></i>
+            <i style="color:#00008B;" class="fab fa-twitter"></i>
+            <i style="color:#00008B;" class="fab fa-linkedin"></i>
+        </div>
+       
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
